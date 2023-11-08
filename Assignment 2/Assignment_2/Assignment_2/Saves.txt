@@ -1,0 +1,727 @@
+﻿non-unique collections for each test
+NoDVDs average time for 20000 nodes taking 100 samples: 0.452ms. 100 iterations took 0.045 seconds
+NoDVDs average time for 30000 nodes taking 100 samples: 0.688ms. 100 iterations took 0.069 seconds
+NoDVDs average time for 40000 nodes taking 100 samples: 0.946ms. 100 iterations took 0.095 seconds
+NoDVDs average time for 50000 nodes taking 100 samples: 1.256ms. 100 iterations took 0.126 seconds
+NoDVDs average time for 60000 nodes taking 100 samples: 1.584ms. 100 iterations took 0.158 seconds
+NoDVDs average time for 70000 nodes taking 100 samples: 2.119ms. 100 iterations took 0.212 seconds
+NoDVDs average time for 80000 nodes taking 100 samples: 2.340ms. 100 iterations took 0.234 seconds
+NoDVDs average time for 90000 nodes taking 100 samples: 3.014ms. 100 iterations took 0.301 seconds
+NoDVDs average time for 100000 nodes taking 100 samples: 3.569ms. 100 iterations took 0.357 seconds
+NoDVDs average time for 110000 nodes taking 100 samples: 4.258ms. 100 iterations took 0.426 seconds
+NoDVDs average time for 120000 nodes taking 100 samples: 6.506ms. 100 iterations took 0.651 seconds
+NoDVDs average time for 130000 nodes taking 100 samples: 6.870ms. 100 iterations took 0.687 seconds
+NoDVDs average time for 140000 nodes taking 100 samples: 7.881ms. 100 iterations took 0.788 seconds
+NoDVDs average time for 150000 nodes taking 100 samples: 8.567ms. 100 iterations took 0.857 seconds
+NoDVDs average time for 160000 nodes taking 100 samples: 8.564ms. 100 iterations took 0.856 seconds
+NoDVDs average time for 170000 nodes taking 100 samples: 7.696ms. 100 iterations took 0.770 seconds
+NoDVDs average time for 180000 nodes taking 100 samples: 9.781ms. 100 iterations took 0.978 seconds
+NoDVDs average time for 190000 nodes taking 100 samples: 10.652ms. 100 iterations took 1.065 seconds
+NoDVDs average time for 200000 nodes taking 100 samples: 13.181ms. 100 iterations took 1.318 seconds
+NoDVDs average time for 210000 nodes taking 100 samples: 13.535ms. 100 iterations took 1.354 seconds
+NoDVDs average time for 220000 nodes taking 100 samples: 14.146ms. 100 iterations took 1.415 seconds
+NoDVDs average time for 230000 nodes taking 100 samples: 16.445ms. 100 iterations took 1.645 seconds
+NoDVDs average time for 240000 nodes taking 100 samples: 16.853ms. 100 iterations took 1.709 seconds
+NoDVDs average time for 250000 nodes taking 100 samples: 16.001ms. 100 iterations took 1.600 seconds
+NoDVDs average time for 260000 nodes taking 100 samples: 18.467ms. 100 iterations took 1.847 seconds
+NoDVDs average time for 270000 nodes taking 100 samples: 20.645ms. 100 iterations took 2.065 seconds
+NoDVDs average time for 280000 nodes taking 100 samples: 20.974ms. 100 iterations took 2.098 seconds
+NoDVDs average time for 290000 nodes taking 100 samples: 22.859ms. 100 iterations took 2.286 seconds
+NoDVDs average time for 300000 nodes taking 100 samples: 24.890ms. 100 iterations took 2.489 seconds
+NoDVDs average time for 310000 nodes taking 100 samples: 25.885ms. 100 iterations took 2.613 seconds
+NoDVDs average time for 320000 nodes taking 100 samples: 27.681ms. 100 iterations took 2.768 seconds
+NoDVDs average time for 330000 nodes taking 100 samples: 26.569ms. 100 iterations took 2.657 seconds
+NoDVDs average time for 340000 nodes taking 100 samples: 24.850ms. 100 iterations took 2.485 seconds
+NoDVDs average time for 350000 nodes taking 100 samples: 32.267ms. 100 iterations took 3.227 seconds
+NoDVDs average time for 360000 nodes taking 100 samples: 32.682ms. 100 iterations took 3.268 seconds
+NoDVDs average time for 370000 nodes taking 100 samples: 31.004ms. 100 iterations took 3.100 seconds
+NoDVDs average time for 380000 nodes taking 100 samples: 31.345ms. 100 iterations took 3.134 seconds
+NoDVDs average time for 390000 nodes taking 100 samples: 33.646ms. 100 iterations took 3.365 seconds
+NoDVDs average time for 400000 nodes taking 100 samples: 35.681ms. 100 iterations took 3.570 seconds
+NoDVDs average time for 410000 nodes taking 100 samples: 38.271ms. 100 iterations took 3.838 seconds
+NoDVDs average time for 420000 nodes taking 100 samples: 37.643ms. 100 iterations took 3.764 seconds
+NoDVDs average time for 430000 nodes taking 100 samples: 38.637ms. 100 iterations took 3.864 seconds
+NoDVDs average time for 440000 nodes taking 100 samples: 38.624ms. 100 iterations took 3.862 seconds
+NoDVDs average time for 450000 nodes taking 100 samples: 41.352ms. 100 iterations took 4.145 seconds
+NoDVDs average time for 460000 nodes taking 100 samples: 38.775ms. 100 iterations took 3.878 seconds
+NoDVDs average time for 470000 nodes taking 100 samples: 41.517ms. 100 iterations took 4.152 seconds
+NoDVDs average time for 480000 nodes taking 100 samples: 40.241ms. 100 iterations took 4.024 seconds
+NoDVDs average time for 490000 nodes taking 100 samples: 41.019ms. 100 iterations took 4.102 seconds
+NoDVDs average time for 500000 nodes taking 100 samples: 44.324ms. 100 iterations took 4.432 seconds
+NoDVDs average time for 510000 nodes taking 100 samples: 43.345ms. 100 iterations took 4.335 seconds
+NoDVDs average time for 520000 nodes taking 100 samples: 44.338ms. 100 iterations took 4.434 seconds
+NoDVDs average time for 530000 nodes taking 100 samples: 45.868ms. 100 iterations took 4.609 seconds
+NoDVDs average time for 540000 nodes taking 100 samples: 46.269ms. 100 iterations took 4.627 seconds
+NoDVDs average time for 550000 nodes taking 100 samples: 48.159ms. 100 iterations took 4.816 seconds
+NoDVDs average time for 560000 nodes taking 100 samples: 51.234ms. 100 iterations took 5.123 seconds
+NoDVDs average time for 570000 nodes taking 100 samples: 52.408ms. 100 iterations took 5.241 seconds
+NoDVDs average time for 580000 nodes taking 100 samples: 52.206ms. 100 iterations took 5.221 seconds
+NoDVDs average time for 590000 nodes taking 100 samples: 53.591ms. 100 iterations took 5.359 seconds
+NoDVDs average time for 600000 nodes taking 100 samples: 54.862ms. 100 iterations took 5.486 seconds
+NoDVDs average time for 610000 nodes taking 100 samples: 55.020ms. 100 iterations took 5.502 seconds
+NoDVDs average time for 620000 nodes taking 100 samples: 55.550ms. 100 iterations took 5.555 seconds
+NoDVDs average time for 630000 nodes taking 100 samples: 58.547ms. 100 iterations took 5.855 seconds
+NoDVDs average time for 640000 nodes taking 100 samples: 57.829ms. 100 iterations took 5.783 seconds
+NoDVDs average time for 650000 nodes taking 100 samples: 58.571ms. 100 iterations took 5.857 seconds
+NoDVDs average time for 660000 nodes taking 100 samples: 59.745ms. 100 iterations took 5.975 seconds
+NoDVDs average time for 670000 nodes taking 100 samples: 60.480ms. 100 iterations took 6.048 seconds
+NoDVDs average time for 680000 nodes taking 100 samples: 61.627ms. 100 iterations took 6.163 seconds
+NoDVDs average time for 690000 nodes taking 100 samples: 64.781ms. 100 iterations took 6.478 seconds
+NoDVDs average time for 700000 nodes taking 100 samples: 64.181ms. 100 iterations took 6.418 seconds
+NoDVDs average time for 710000 nodes taking 100 samples: 68.505ms. 100 iterations took 6.851 seconds
+NoDVDs average time for 720000 nodes taking 100 samples: 67.804ms. 100 iterations took 6.780 seconds
+NoDVDs average time for 730000 nodes taking 100 samples: 71.161ms. 100 iterations took 7.116 seconds
+NoDVDs average time for 740000 nodes taking 100 samples: 72.339ms. 100 iterations took 7.234 seconds
+NoDVDs average time for 750000 nodes taking 100 samples: 75.266ms. 100 iterations took 7.527 seconds
+NoDVDs average time for 760000 nodes taking 100 samples: 77.137ms. 100 iterations took 7.714 seconds
+NoDVDs average time for 770000 nodes taking 100 samples: 75.367ms. 100 iterations took 7.537 seconds
+NoDVDs average time for 780000 nodes taking 100 samples: 76.714ms. 100 iterations took 7.671 seconds
+NoDVDs average time for 790000 nodes taking 100 samples: 78.106ms. 100 iterations took 7.811 seconds
+NoDVDs average time for 800000 nodes taking 100 samples: 77.994ms. 100 iterations took 7.799 seconds
+NoDVDs average time for 810000 nodes taking 100 samples: 78.029ms. 100 iterations took 7.803 seconds
+NoDVDs average time for 820000 nodes taking 100 samples: 80.753ms. 100 iterations took 8.075 seconds
+NoDVDs average time for 830000 nodes taking 100 samples: 82.472ms. 100 iterations took 8.247 seconds
+NoDVDs average time for 840000 nodes taking 100 samples: 81.645ms. 100 iterations took 8.165 seconds
+NoDVDs average time for 850000 nodes taking 100 samples: 83.131ms. 100 iterations took 8.313 seconds
+NoDVDs average time for 860000 nodes taking 100 samples: 86.326ms. 100 iterations took 8.633 seconds
+NoDVDs average time for 870000 nodes taking 100 samples: 86.001ms. 100 iterations took 8.600 seconds
+NoDVDs average time for 880000 nodes taking 100 samples: 85.999ms. 100 iterations took 8.600 seconds
+NoDVDs average time for 890000 nodes taking 100 samples: 89.450ms. 100 iterations took 8.945 seconds
+NoDVDs average time for 900000 nodes taking 100 samples: 89.524ms. 100 iterations took 8.952 seconds
+NoDVDs average time for 910000 nodes taking 100 samples: 89.415ms. 100 iterations took 8.942 seconds
+NoDVDs average time for 920000 nodes taking 100 samples: 92.810ms. 100 iterations took 9.281 seconds
+NoDVDs average time for 930000 nodes taking 100 samples: 93.507ms. 100 iterations took 9.351 seconds
+NoDVDs average time for 940000 nodes taking 100 samples: 92.505ms. 100 iterations took 9.251 seconds
+NoDVDs average time for 950000 nodes taking 100 samples: 95.578ms. 100 iterations took 9.558 seconds
+NoDVDs average time for 960000 nodes taking 100 samples: 94.152ms. 100 iterations took 9.415 seconds
+NoDVDs average time for 970000 nodes taking 100 samples: 93.219ms. 100 iterations took 9.322 seconds
+NoDVDs average time for 980000 nodes taking 100 samples: 97.232ms. 100 iterations took 9.723 seconds
+NoDVDs average time for 990000 nodes taking 100 samples: 97.213ms. 100 iterations took 9.721 seconds
+NoDVDs average time for 1000000 nodes taking 100 samples: 98.581ms. 100 iterations took 9.858 seconds
+NoDVDs average time for 1010000 nodes taking 100 samples: 100.558ms. 100 iterations took 10.056 seconds
+NoDVDs average time for 1020000 nodes taking 100 samples: 101.041ms. 100 iterations took 10.104 seconds
+NoDVDs average time for 1030000 nodes taking 100 samples: 104.565ms. 100 iterations took 10.457 seconds
+NoDVDs average time for 1040000 nodes taking 100 samples: 104.840ms. 100 iterations took 10.484 seconds
+NoDVDs average time for 1050000 nodes taking 100 samples: 104.381ms. 100 iterations took 10.438 seconds
+NoDVDs average time for 1060000 nodes taking 100 samples: 107.769ms. 100 iterations took 10.777 seconds
+NoDVDs average time for 1070000 nodes taking 100 samples: 106.976ms. 100 iterations took 10.698 seconds
+NoDVDs average time for 1080000 nodes taking 100 samples: 108.753ms. 100 iterations took 10.875 seconds
+NoDVDs average time for 1090000 nodes taking 100 samples: 108.625ms. 100 iterations took 10.863 seconds
+NoDVDs average time for 1100000 nodes taking 100 samples: 107.015ms. 100 iterations took 10.702 seconds
+
+
+
+
+
+
+// Find leftmost node in right subtree
+BTreeNode replacement = thisMovie.RChild;
+BTreeNode replacementParent = thisMovie;
+while (replacement.LChild != null)
+{
+    replacementParent = replacement;
+    replacement = replacement.LChild;
+}
+
+// Can just replace the Movie
+thisMovie.Movie = replacement.Movie;
+
+if (replacement == thisMovie.RChild) thisMovie.RChild = replacement.RChild;
+else replacementParent.LChild = replacement.RChild;
+count--;
+
+
+
+
+        private static string[][] Order(string[][] array)
+        {
+            //// Using system stuff
+            //string[][] sortedMovies = new string[array.Length][];
+            //Array.Copy(array, 0, sortedMovies, 0, array.Length);
+
+            string[][] sortedMovies = Copy(array);
+            int n = sortedMovies.Length;
+            for (int i = 0; i <= n-2; i++)
+            {
+                int min_index = i;
+                for (int j = i + 1; j <= n-1; j++)
+                {
+                    
+                    if (sortedMovies[j][1].Length < sortedMovies[min_index][1].Length)
+                    {
+                        min_index = j; // index of the smallest item for iteration i
+                    }
+                }
+                (sortedMovies[i], sortedMovies[min_index]) = (sortedMovies[min_index], sortedMovies[i]);
+            }
+            return sortedMovies;
+        }
+
+        private static string[][] Copy(string[][] first)
+        {
+            string[][] second = new string[first.Length][];
+            for (int i = 0; i < first.Length; i++)
+            {
+                second[i] = new string[first[i].Length];
+                second[i][0] = first[i][0];
+                second[i][1] = first[i][1];
+                //Array.Copy(first[i], second[i], first[i].Length);
+            }
+            return second;
+        }
+
+
+
+
+private static void PrettyPrint(MovieCollection collection)
+        {
+            string[][] array2 = collection.ToArray_Print();
+            string[][] array2_ordered = Order(array2);
+
+            int arrayLength = array2_ordered.Length;
+            int depth = array2_ordered[array2_ordered.Length - 1][1].Length;
+            for (int i = 0; i <= depth; i++)
+            {                
+                for (int j = 0; j < arrayLength; j++)
+                {
+                    if (array2_ordered[j][1].Length == i)
+                    {
+                        //Console.Write($"[{array2_ordered[j][0]}, {array2_ordered[j][1]}]{leftSpace}");
+                        string leftSpace = new string('\t', depth - i);
+                        Console.Write($"{leftSpace}{array2_ordered[j][0],-4}");
+                    }
+                }
+                Console.WriteLine();
+            }
+        }
+
+       
+
+// DELETE: Returns relative to BST positioning
+        public string[][] ToArray_Print()
+        {
+            if (root == null)
+            {
+                this.IsEmpty();
+                return new String[1][]; // empty array with one element ?
+            }
+            int height = GetHeight(root);
+
+            // In-order traversal
+            string[][] array = new string[this.Number][];
+            int i = 0; int depth = 0; string direction = " ";
+            InOrder_Traversal_Print(ref i, ref depth, ref direction, this.root, array, null);
+            return array;
+        }
+
+        // DELETE
+        /// <summary>
+        /// Returns an in-order list of movie titles with their position in the tree
+        /// relative to the root
+        /// </summary>
+        /// <param name="i">The position of a movie title by dictionary order</param>
+        /// <param name="depth">the number of edges present in path from the root node of a tree to that node</param>
+        /// <param name="currentNode">The current node in the tree being traversed</param>
+        /// <param name="array">a 2-dimensional array with X arrays of length 2</param>
+        /// <param name="isLeft">true if currentNode is a leftChild and false if it's a RightChild</param>
+        private void InOrder_Traversal_Print(ref int i, ref int depth, ref string direction, BTreeNode currentNode, String[][] array, bool? isLeft)
+        {
+            if (currentNode != null)
+            {
+                // find the left leaf of the current node
+                if (currentNode.LChild != null)
+                {
+                    depth++;
+                    direction += "L";
+                    InOrder_Traversal_Print(ref i, ref depth, ref direction, currentNode.LChild, array, true);
+                }
+
+                // runs once left leaf is found. Then added to array                
+                array[i] = new string[2];
+                array[i][0] = currentNode.Movie.Title;
+                array[i][1] = direction;
+                i++;
+                // once left most are added, traverse right branch if it exists
+                if (currentNode.RChild != null)
+                {
+                    depth++;
+                    direction += "R";
+                    InOrder_Traversal_Print(ref i, ref depth, ref direction, currentNode.RChild, array, false);
+                }
+                depth--;
+                direction = direction.Remove(direction.Length - 1, 1);
+            }
+        }
+
+        // DELETE
+        public int GetHeight(BTreeNode? node)
+        {
+            if (node == null) return 0;
+            else
+            {
+                int leftHeight = GetHeight(node.LChild);
+                int rightHeight = GetHeight(node.RChild);
+
+                if (leftHeight > rightHeight) return leftHeight + 1;
+                else return rightHeight + 1;
+            }
+        } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// CAB301 - assignment 2
+// An implementation of MovieCollection ADT 2023
+using System;
+// NOTE: ITS IN ALPHABETICAL ORDER
+namespace Assignment_2
+{
+    //A class that models a node of a binary search tree
+    //An instance of this class is a node in the binary search tree 
+    public class BTreeNode
+    {
+        private IMovie movie; // movie
+        private BTreeNode? lchild; // reference to its left child 
+        private BTreeNode? rchild; // reference to its right child
+
+        public BTreeNode(IMovie movie)
+        {
+            this.movie = movie;
+            lchild = null;
+            rchild = null;
+        }
+
+        public IMovie Movie
+        {
+            get { return movie; }
+            set { movie = value; }
+        }
+
+        public BTreeNode? LChild
+        {
+            get { return lchild; }
+            set { lchild = value; }
+        }
+
+        public BTreeNode? RChild
+        {
+            get { return rchild; }
+            set { rchild = value; }
+        }
+    }
+
+    // invariant: no duplicate movie in this movie collection
+    public class MovieCollection : IMovieCollection
+    {
+        private BTreeNode? root; // the root of the binary search tree in which movies are stored 
+        private int count; // the number of movies currently stored in this movie collection 
+        public int Number { get { return count; } }
+        // NOTE: count is the private property for public Number
+
+
+        // constructor - create an empty movie collection
+        public MovieCollection()
+        {
+            root = null;
+            count = 0;
+        }
+
+        public bool IsEmpty()
+        {
+            return (Number == 0);
+        }
+
+        // Insert a movie into this movie collection
+        // Pre-condition: nil
+        // Post-condition: if the movie was not in this movie collection, the movie has been added into this movie collection, new Number = old Number + 1 and return true; otherwise, new Number = old Number and return false.
+        public bool Insert(IMovie movie)
+        {
+            //throw new System.NotImplementedException();
+            BTreeNode? newNode = new BTreeNode(movie);
+
+            // If empty doubly linked list, immediately set root and exit
+            if (root == null)
+            {
+                root = newNode;
+                count++;
+                return true;
+            }
+
+            // Traversal begins at the root
+            BTreeNode? current = root;
+
+            // Traversing entire Tree to find newNode's position
+            while (true)
+            {
+                int comparison = movie.CompareTo(current.Movie);
+
+                // if this movie is before the current
+                if (comparison == 1)
+                {
+                    // Can insert if current has no Left child; (i.e is the ROOT)
+                    // null, current, ...
+                    // newNode, current, ...
+                    if (current.LChild == null) // TEST: Insert_left_root
+                    {
+                        root.LChild = newNode;  // current root gets a LChild
+                        newNode.RChild = root; // newNode is before root now
+                        root = newNode;       // newNode is new root
+                        count++;
+                        return true;
+                    }
+                    // this movie is before the current
+                    // so check if it's before the current left child
+                    else
+                    {
+                        // if movie is after left child but before current, it goes between
+                        if (movie.CompareTo(current.LChild.Movie) == -1) // TEST: Insert_before_Lchild
+                        {
+                            // ..., left, current, right, ...
+                            // ..., left, newNode, current, right, ...
+                            current.LChild.RChild = newNode; // leftChild of current gets newNode as it's right child
+                            newNode.LChild = current.LChild; // newNode get's current.LChild as its left child
+                            current.LChild = newNode; // current's left is replaced by newNode
+                            newNode.RChild = current; // newNode's right child is now current
+                            count++;
+                            return true;
+                        }
+                        // if not before current and left.Child, traverse left-wards
+                        else current = current.LChild;
+                    }
+                }
+
+
+                // if this movie is after the current
+                if (comparison == -1)
+                {
+                    // Can insert if current has no Right child; (i.e the END)
+                    // ..., left, current, null, ...
+                    // ..., left, current, newNode, ...
+                    if (current.RChild == null) // TEST: Insert_end
+                    {
+                        current.RChild = newNode;
+                        newNode.LChild = current;
+                        count++;
+                        return true;
+                    }
+                    // this movie is after current,
+                    // so check if it is before current's right child
+                    else
+                    {
+                        // movie is before right child (and before current)
+                        if (movie.CompareTo(current.RChild.Movie) == 1) // TEST: Insert_before_Rchild
+                        {
+                            // ..., left, current, right, ...
+                            // ..., left, current, newNode, right,..
+                            current.RChild.LChild = newNode;         // rightChild of current get's newNode as it's left child
+                            newNode.RChild = current.RChild;        // newNode's RChild is right
+                            current.RChild = newNode;              // current get's newNode as it's right child
+                            newNode.LChild = current;             // newNode get's current as it's left child
+                            count++;
+                            return true;
+                        }
+                        // if not after current and not before rightChild, continue traversal right-wards
+                        else current = current.RChild;
+                    }
+                }
+                // if this movie has the same title as current
+                else
+                {
+                    Console.WriteLine($"{movie.Title} already exists in the movie collection");
+                    return false;
+                }
+            }
+        }
+
+
+        // Pre-condition: nil
+        // Post-condition: if the movie was in this movie collection,
+        // the movie has been removed out of this movie collection, new Number - old Number - 1 and return true;
+        // otherwise, return false and this movie collection remains unchanged and new Number = old Number.
+        // Delete a movie from this movie collection
+        public bool Delete(IMovie movie)
+        {
+            IMovie? thisMovie = Search(movie.Title);
+            if (thisMovie == null) return false;
+
+            // Traversing
+            BTreeNode? current = root;
+            while (current != null)
+            {
+                // current node has the same title
+                if (thisMovie.CompareTo(current.Movie) == 0)
+                {
+                    // root is thisMovie
+                    if (current.LChild == null)
+                    {
+                        if (current.RChild != null) current.RChild.LChild = null;
+                        root = current.RChild; // second item is new root
+                        this.count--;
+                        return true;
+                    }
+                    // end is thisMovie
+                    if (current.RChild == null)
+                    {
+                        if (current.LChild != null) current.LChild.RChild = null;
+                        this.count--;
+                        return true;
+                    }
+                    if (current.LChild != null && current.RChild != null)
+                    {
+                        // i.e. ..., left, current, right, moreRight, ...
+                        // to   ..., left, right, moreRight, ...
+                        current.LChild.RChild = current.RChild;
+                        current.RChild.LChild = current.LChild;
+                        this.count--;
+                        return true;
+                    }
+                }
+                else { current = current.RChild; }
+            }
+            // else return false;
+            return false;
+
+
+        }
+
+
+        // Search for a movie by its title in this movie collection  
+        // pre: nil
+        // post: return the reference of the movie object if the movie is in this movie collection;
+        //	     otherwise, return null. New Number = old Number.
+        public IMovie? Search(string title)
+        {
+            if (this.root == null) return null; // quick return
+            IMovie thisMovie = new Movie(title);
+            // Traversing
+            BTreeNode current = root;
+            while (current != null)
+            {
+                // current node has the same title
+                if (thisMovie.CompareTo(current.Movie) == 0)
+                {
+                    return current.Movie; // the reference
+                }
+                if (current.RChild != null) current = current.RChild;
+            }
+            // Not found so return null
+            return null;
+
+        }
+
+
+        // Calculate the totall number of DVDs in this movie collection 
+        // Pre-condition: nil
+        // Post-condition: return the total number of DVDs in this movie collection. this moive collection remains unchanged, and new Number = old Number.
+        public int NoDVDs()
+        {                       
+            int total = 0;                          // 1    O(1)
+            IMovie[] array = this.ToArray();        // 3n+4 O(n)
+            for (int i = 0; i < array.Length; i++)  // n    O(n)
+            {
+                total += array[i].TotalCopies;      // 1    O(1)
+            }            
+            return total;                           // 1    O(1)
+        }
+
+
+        // Return an array that contains all the movies in this movie collection and the movies in the array are sorted in the dictionary order by movie title
+        // Pre-condition: nil
+        // Post-condition: return an array of movies that are stored in dictionary order by their titles, this movie collection remains unchanged and new Number = old Number.
+        public IMovie[] ToArray()
+        {
+            if (this.Number == 0) throw new Exception("Collection is empty");
+
+            BTreeNode? current = root;
+            IMovie[] array = new Movie[this.Number];
+            for (int i = 0; i < Number; i++)
+            {
+                if (current != null)
+                {
+                    /* Printing to see correct LChild and RChild assigning
+                    if (current.LChild == null && current.RChild != null)
+                    {
+                        Console.WriteLine("root:  " + current.Movie.Title);
+                        Console.WriteLine("right: " + current.RChild.Movie.Title);
+                    }
+                    else if (current.RChild == null && current.LChild != null)
+                    {
+                        Console.WriteLine("left:  " + current.LChild.Movie.Title);
+                        Console.WriteLine("end:   " + current.Movie.Title);
+                    }
+                    else if (current.RChild != null && current.LChild != null)
+                    {
+                        Console.WriteLine("left:  " + current.LChild.Movie.Title);
+                        Console.WriteLine("this:  " + current.Movie.Title);
+                        Console.WriteLine("right: " + current.RChild.Movie.Title);
+                    }
+                    */
+                    array[i] = current.Movie;
+                    current = current.RChild;
+                }
+            }
+            return array;
+        }
+
+        // Clear this movie collection
+        // Pre-condotion: nil
+        // Post-condition: all the movies in this movie collection have been removed from this movie collection and new Number = 0. 
+        public void Clear()
+        {
+            throw new System.NotImplementedException();
+            // for each movie in collection, Delete(movie)
+            BTreeNode? current = root;
+            int i = 0;
+            while(this.Number != 0)
+            {
+                if(current != null)
+                {
+                    Delete(current.Movie);
+                }
+            }
+
+        }
+    }
+
+
+
+
+
+}
+
+
+
+
+public bool Delete(IMovie movie)
+        {
+            BTreeNode? parent = null;   // parent of this movie
+            BTreeNode? thisMovie = root;  // traversing from begining
+            bool thisMovieIsleft = false;  // false is right, true is left
+            bool thisMovieIsRight = false;  // false is right, true is left
+            int? comparison = null;
+
+            // Quick exit if the node doesn't exist
+            if (this.IsEmpty() == true)
+            {
+                Console.WriteLine("Tree is empty");
+                return false;
+            }
+            // Find this movie & its parent in the tree
+            while (thisMovie != null && comparison != 0)
+            {
+                comparison = thisMovie.Movie.CompareTo(movie);
+                parent = thisMovie;
+                switch (comparison)
+                {
+                    case 1:
+                        thisMovie = thisMovie.RChild;
+                        thisMovieIsRight = true;
+                        break;
+                    case -1:
+                        thisMovie = thisMovie.LChild;
+                        thisMovieIsleft = true;
+                        break;
+                }
+            }
+            // always false but required to prevent warnings
+            if(thisMovie == null || parent == null)
+            {
+                Console.WriteLine("This movie doesn't exist");
+                return false;
+            }
+
+            bool hasLeftChild = (thisMovie.LChild != null);
+            bool hasRightChild = (thisMovie.RChild != null);
+
+
+            // This movie has no children (is a leaf)
+            if (!hasLeftChild && !hasRightChild)
+            {                
+                if (thisMovie == root) root = null;
+                else if (thisMovieIsleft) parent.LChild = null;
+                else if (thisMovieIsRight) parent.RChild = null;
+                count--;
+            }
+
+            // This movie has 1 child
+            else if(hasLeftChild) // & right is null
+            {
+                if (thisMovie == root) root = thisMovie.LChild;
+                else if (thisMovieIsleft) parent.LChild = thisMovie.LChild; // parent's left child is now this movies left child
+                else if (thisMovieIsRight) parent.RChild = thisMovie.LChild; // parent's right child is now this movies left child
+                count--;
+            }
+            else if (hasRightChild)  // & left is null
+            {
+                if (thisMovie == root) root = thisMovie.RChild;
+                else if (thisMovieIsleft) parent.LChild = thisMovie.RChild; // parent's left child is now this movies right child
+                else if (thisMovieIsRight) parent.RChild = thisMovie.RChild; // parent's right child is now this movies right child
+                count--;
+            }
+            // This movie has 2 children
+            else if ((thisMovie.LChild != null) && (thisMovie.RChild != null)) // or just else
+            {
+                //BTreeNode replacement = FindReplacement(thisMovie);
+                BTreeNode replacementParent = thisMovie.RChild;
+                BTreeNode replacement = thisMovie.RChild; // start at this movies right child and...
+                while (replacement.RChild != null) // traverse to deepest leaf
+                {
+                    replacementParent = replacement;
+                    replacement = replacement.RChild;
+                }
+
+                // replace
+                if (thisMovie == root) root = replacement;
+                else if (thisMovieIsleft) parent.LChild = replacement; // parent's left child is now this movies replacement
+                else if (thisMovieIsRight) parent.RChild = replacement; // parent's right child is now this movies replacement
+                replacement.LChild = thisMovie.LChild;
+                count--;
+
+                // Need to remove the replacement from original position
+                // at this line, we know that the replacement's right child is null
+                if (replacementParent.RChild == replacement) // replacement is a right child of its parent
+                {
+                    replacementParent.RChild = replacement.LChild;
+                }
+                else if (replacementParent.LChild == replacement) // replacement is a left child of its parent
+                {
+                    replacementParent.LChild = replacement.LChild;
+                }
+                if(replacement.LChild != null)
+                {
+
+                }
+
+               
+            }
+            return true;
+
+        }
+
+        private static BTreeNode FindReplacement(BTreeNode toBeReplaced)
+        {
+            // We know that the right child is greater than any node
+            BTreeNode? successor = toBeReplaced.RChild;
+            if(successor != null) // if the successor is not null (always t
+            {
+                while (successor.RChild != null) // while we can traverse down and find more right children
+                {
+
+                }
+            }
+            
+        }

@@ -1,0 +1,324 @@
+﻿[TestMethod]
+        public void IterativeCollection_01_625_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(625);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_02_1250_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(1250);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_03_2500_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(2500);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_04_5000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(5000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_05_10000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(10000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_06_20000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(20000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_07_40000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(40000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_08_80000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(80000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_09_160000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(160000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_10_320000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(320000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_11_640000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(640000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_12_1280000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(1280000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_13_2560000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(2560000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_14_5120000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(5120000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_15_10240000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(10240000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_16_20480000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(20480000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+        [TestMethod]
+        public void IterativeCollection_17_40960000_nodes()
+        {
+            int sample = 1000; // The number of times the test is run
+            MovieCollection collection = CollectionDesign(40960000);
+            double[] iterations = new double[sample];           // and array with time for each test
+            int noDvd = 0;
+            for (int i = 0; i < sample; i++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew(); // Start watch
+                noDvd = collection.NoDVDs();
+                watch.Stop();                                        // Stop watch
+                iterations[i] = watch.Elapsed.TotalMilliseconds;     // Add the time taken to a list
+            }
+
+            double averageTime = Queryable.Average(iterations.AsQueryable());
+            Console.WriteLine($"Average time for {collection.Number} nodes taking {sample} samples: {averageTime.ToString("F3")}ms and has {noDvd} dvds");
+            Assert.IsTrue(true);
+        }
+

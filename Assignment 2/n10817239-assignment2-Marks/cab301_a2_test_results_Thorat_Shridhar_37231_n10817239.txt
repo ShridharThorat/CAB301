@@ -1,0 +1,217 @@
+User Thorat_Shridhar_37231_n10817239 Overall Functional Test Result 48.500 out of 50.000
+
+==================================================================
+==                       Movie.CompareTo                        ==
+==================================================================
+Test case 1: Less than (1 marks)
+    PASSED: returns -1 [ Morbius < Runway 34 ]
+    
+Test case 2: Equal (1 marks)
+    PASSED: returns 0 [ Jujutsu Kaisen 0 == Jujutsu Kaisen 0 ]
+    
+Test case 3: Greater than (1 marks)
+    PASSED: returns 1 [ Runway 34 > Morbius ]
+    
+3 out of 3
+
+==================================================================
+==                        Movie.ToString                        ==
+==================================================================
+Test case 1: Movie title (1 marks)
+    PASSED: Returned string contains Movie title
+    
+Test case 2: Movie genre (0.5 marks)
+    PASSED: Returned string contains Movie genre
+    
+Test case 3: Movie classification (0.5 marks)
+    PASSED: Returned string contains Movie classification
+    
+Test case 4: Movie duration (0.5 marks)
+    PASSED: Returned string contains Movie duration
+    
+Test case 5: Movie available copies (0.5 marks)
+    FAILED: Returned string does not contain Movie available copies
+    
+2.5 out of 3
+
+==================================================================
+==                   MovieCollection.IsEmpty                    ==
+==================================================================
+Test case 1: Empty collection (1 marks)
+    PASSED: Empty collection returns True
+    
+Test case 2: Collection contains single item (0.5 marks)
+    PASSED: Non-empty collection returns False
+    
+Test case 3: Collection contains multiple items (0.5 marks)
+    PASSED: Non-empty collection returns False
+    
+2 out of 2
+
+==================================================================
+==                    MovieCollection.Insert                    ==
+==================================================================
+Test case 1: Insert into empty collection (1 marks)
+    PASSED: Return value is correct for each insertion
+    PASSED: Number is correct after each insertion
+    
+Test case 2: Insert multiple items in ascending order (1 marks)
+    PASSED: Return value is correct for each insertion
+    PASSED: Number is correct after each insertion
+    
+Test case 3: Insert multiple items in descending order (1 marks)
+    PASSED: Return value is correct for each insertion
+    PASSED: Number is correct after each insertion
+    
+Test case 4: Insert multiple items in random order (1 marks)
+    PASSED: Return value is correct for each insertion
+    PASSED: Number is correct after each insertion
+    
+Test case 5: Insert duplicate item equal to minimum (1 marks)
+    PASSED: Return value is correct for each insertion
+    PASSED: Number is correct after each insertion
+    
+Test case 6: Insert duplicate item equal to maximum (1 marks)
+    PASSED: Return value is correct for each insertion
+    PASSED: Number is correct after each insertion
+    
+Test case 7: Insert duplicate item equal to root (1 marks)
+    PASSED: Return value is correct for each insertion
+    PASSED: Number is correct after each insertion
+    
+Test case 8: Insert duplicate item not equal to root (1 marks)
+    PASSED: Return value is correct for each insertion
+    PASSED: Number is correct after each insertion
+    
+8 out of 8
+
+==================================================================
+==                    MovieCollection.Delete                    ==
+==================================================================
+Test case 1: Delete from empty collection (1 marks)
+    PASSED: Delete returns False as expected
+    PASSED: After delete, Number is 0 as expected
+    
+Test case 2: Delete item present in collection with one element (1 marks)
+    PASSED: Delete returns True as expected
+    PASSED: After delete, Number is 0 as expected
+    
+Test case 3: Delete item not present in collection with one element (1 marks)
+    PASSED: Delete returns False as expected
+    PASSED: After delete, Number is 1 as expected
+    
+Test case 4: Delete first element in collection with multiple elements (1 marks)
+    PASSED: Delete returns True as expected
+    PASSED: After delete, Number is 10 as expected
+    
+Test case 5: Delete last element in collection with multiple elements (1 marks)
+    PASSED: Delete returns True as expected
+    PASSED: After delete, Number is 10 as expected
+    
+Test case 6: Delete internal element in collection with multiple elements (1 marks)
+    PASSED: Delete returns True as expected
+    PASSED: After delete, Number is 10 as expected
+    
+Test case 7: Delete item not found in collection with multiple elements (1 marks)
+    PASSED: Delete returns False as expected
+    PASSED: After delete, Number is 10 as expected
+    
+Test case 8: Delete root of collection with multiple elements (1 marks)
+    PASSED: Delete returns True as expected
+    PASSED: After delete, Number is 10 as expected
+    
+8 out of 8
+
+==================================================================
+==                    MovieCollection.Search                    ==
+==================================================================
+Test case 1: Search in empty collection (1 marks)
+    PASSED: Search returns the expected item
+    PASSED: After search, Number is 0 as expected
+    
+Test case 2: Search for item present in collection with one element (1 marks)
+    PASSED: Search returns the expected item
+    PASSED: After search, Number is 1 as expected
+    
+Test case 3: Search for item not present in collection with one element (1 marks)
+    PASSED: Search returns the expected item
+    PASSED: After search, Number is 1 as expected
+    
+Test case 4: Search for first element in collection with multiple elements (1 marks)
+    PASSED: Search returns the expected item
+    PASSED: After search, Number is 11 as expected
+    
+Test case 5: Search for last element in collection with multiple elements (1 marks)
+    FAILED: Search does not return the expected item
+    PASSED: After search, Number is 11 as expected
+    
+Test case 6: Search for internal element in collection with multiple elements (1 marks)
+    FAILED: Search does not return the expected item
+    PASSED: After search, Number is 11 as expected
+    
+Test case 7: Search for item not found in collection with multiple elements (1 marks)
+    PASSED: Search returns the expected item
+    PASSED: After search, Number is 10 as expected
+    
+Test case 8: Search for root of collection with multiple elements (1 marks)
+    PASSED: Search returns the expected item
+    PASSED: After search, Number is 11 as expected
+    
+7 out of 8
+
+==================================================================
+==                    MovieCollection.NoDVDs                    ==
+==================================================================
+Test case 1: Empty collection (1 marks)
+    PASSED: NoDVDs returns the expected value
+    
+Test case 2: Collection with one element (1 marks)
+    PASSED: NoDVDs returns the expected value
+    
+Test case 3: Collection with multiple elements inserted in ascending order (2 marks)
+    PASSED: NoDVDs returns the expected value
+    
+Test case 4: Collection with multiple elements inserted in descending order (2 marks)
+    PASSED: NoDVDs returns the expected value
+    
+Test case 5: Collection with multiple elements inserted in random order (2 marks)
+    PASSED: NoDVDs returns the expected value
+    
+8 out of 8
+
+==================================================================
+==                   MovieCollection.ToArray                    ==
+==================================================================
+Test case 1: Empty collection (1 marks)
+    PASSED: ToArray returns the expected value
+    
+Test case 2: Collection with one element (1 marks)
+    PASSED: ToArray returns the expected value
+    
+Test case 3: Collection with multiple elements inserted in ascending order (1 marks)
+    PASSED: ToArray returns the expected value
+    
+Test case 4: Collection with multiple elements inserted in descending order (1 marks)
+    PASSED: ToArray returns the expected value
+    
+Test case 5: Collection with multiple elements inserted in random order (4 marks)
+    PASSED: ToArray returns the expected value
+    
+8 out of 8
+
+==================================================================
+==                    MovieCollection.Clear                     ==
+==================================================================
+Test case 1: Empty collection (0.5 marks)
+    PASSED: After clear, Number returns the expected value
+    PASSED: After clear, IsEmpty returns the expected value
+    
+Test case 2: Collection contains one element (0.5 marks)
+    PASSED: After clear, Number returns the expected value
+    PASSED: After clear, IsEmpty returns the expected value
+    
+Test case 3: collection contains multiple elements (1 marks)
+    PASSED: After clear, Number returns the expected value
+    PASSED: After clear, IsEmpty returns the expected value
+    
+2 out of 2

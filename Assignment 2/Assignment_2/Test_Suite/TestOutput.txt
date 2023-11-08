@@ -1,0 +1,839 @@
+0 Clear_EmptyTree
+Test case    : Clear an empty tree, and ensure that Number = 0.
+Before       : {  }
+Tree is empty
+After        : {  }
+Tree is empty
+Expected     : {  }
+Actual       : {  }
+Expected Post: 0
+Actual Post  : 0
+
+1 Clear_TreeWithMultipleNodes
+Test case    : Clear a tree with multiple nodes, and ensure that Number = 0.
+Before       : { A, B, C, D, E, F, G, H }
+  C     
+ ╭╰─╮   
+ B  E   
+╭╯ ╭╰─╮ 
+A  D  G 
+     ╭╰╮
+     F H
+After        : {  }
+Tree is empty
+Expected     : {  }
+Actual       : {  }
+Expected Post: 0
+Actual Post  : 0
+
+2 Clear_TreeWithRootNode
+Test case    : Clear a tree with root node, and ensure that Number = 0.
+Before       : { A }
+A
+After        : {  }
+Tree is empty
+Expected     : {  }
+Actual       : {  }
+Expected Post: 0
+Actual Post  : 0
+
+3 Delete_Invalid_EmptyTree
+Test case    : Delete nonexistent node "A" from empty tree, and ensure Number is invariant.
+Before       : {  }
+Tree is empty
+After        : {  }
+Tree is empty
+Expected     : False
+Actual       : False
+Expected Post: 0
+Actual Post  : 0
+
+4 Delete_Invalid_NonEmptyTree
+Test case    : Delete nonexistent node "X" from nonempty tree, and ensure Number is invariant.
+Before       : { A, B, C, D, E, F, G, H }
+ B      
+╭╰───╮  
+A    F  
+   ╭─╰╮ 
+   D  G 
+  ╭╰╮ ╰╮
+  C E  H
+After        : { A, B, C, D, E, F, G, H }
+ B      
+╭╰───╮  
+A    F  
+   ╭─╰╮ 
+   D  G 
+  ╭╰╮ ╰╮
+  C E  H
+Expected     : False
+Actual       : False
+Expected Post: 8
+Actual Post  : 8
+
+5 Delete_Valid_LeftLeaf
+Test case    : Delete left leaf "A" from tree with root and left/right children, and ensure Number is decremented.
+Before       : { A, B, C }
+ B 
+╭╰╮
+A C
+After        : { B, C }
+B 
+╰╮
+ C
+Expected     : True
+Actual       : True
+Expected Post: 2
+Actual Post  : 2
+
+6 Delete_Valid_Node
+Test case    : Delete node "F" with left/right subtree, where the successor is the rightmost node in the left subtree, and ensure Number is decremented.
+Before       : { A, B, C, D, E, F, G, H }
+ B      
+╭╰───╮  
+A    F  
+   ╭─╰╮ 
+   D  G 
+  ╭╰╮ ╰╮
+  C E  H
+After        : { A, B, C, D, E, G, H }
+ B     
+╭╰──╮  
+A   E  
+   ╭╰╮ 
+   D G 
+  ╭╯ ╰╮
+  C   H
+Expected     : True
+Actual       : True
+Expected Post: 7
+Actual Post  : 7
+
+7 Delete_Valid_NodeWithLeftSubtree
+Test case    : Delete node "H" with left subtree from tree, and ensure Number is decremented.
+Before       : { A, B, C, D, E, F, G, H }
+  C     
+ ╭╰─╮   
+ B  E   
+╭╯ ╭╰──╮
+A  D   H
+      ╭╯
+      G 
+     ╭╯ 
+     F  
+After        : { A, B, C, D, E, F, G }
+  C    
+ ╭╰─╮  
+ B  E  
+╭╯ ╭╰─╮
+A  D  G
+     ╭╯
+     F 
+Expected     : True
+Actual       : True
+Expected Post: 7
+Actual Post  : 7
+
+8 Delete_Valid_NodeWithRightSubtree
+Test case    : Delete node "F" with right subtree from tree, and ensure Number is decremented.
+Before       : { A, B, C, D, E, F, G, H }
+  C     
+ ╭╰─╮   
+ B  E   
+╭╯ ╭╰╮  
+A  D F  
+     ╰╮ 
+      G 
+      ╰╮
+       H
+After        : { A, B, C, D, E, G, H }
+  C    
+ ╭╰─╮  
+ B  E  
+╭╯ ╭╰╮ 
+A  D G 
+     ╰╮
+      H
+Expected     : True
+Actual       : True
+Expected Post: 7
+Actual Post  : 7
+
+9 Delete_Valid_Node_ImmediateSuccessor
+Test case    : Delete node "E" with left child and right subtree, where the successor is the left child, and ensure Number is decremented.
+Before       : { A, B, C, D, E, F, G, H }
+  C     
+ ╭╰─╮   
+ B  E   
+╭╯ ╭╰─╮ 
+A  D  G 
+     ╭╰╮
+     F H
+After        : { A, B, C, D, F, G, H }
+  C    
+ ╭╰╮   
+ B D   
+╭╯ ╰─╮ 
+A    G 
+    ╭╰╮
+    F H
+Expected     : True
+Actual       : True
+Expected Post: 7
+Actual Post  : 7
+
+10 Delete_Valid_RightLeaf
+Test case    : Delete right leaf "C" from tree with root and left/right children, and ensure Number is decremented.
+Before       : { A, B, C }
+ B 
+╭╰╮
+A C
+After        : { A, B }
+ B
+╭╯
+A 
+Expected     : True
+Actual       : True
+Expected Post: 2
+Actual Post  : 2
+
+11 Delete_Valid_Root_TreeWithRoot
+Test case    : Delete root node "A" from tree with root, and ensure Number is decremented.
+Before       : { A }
+A
+After        : {  }
+Tree is empty
+Expected     : True
+Actual       : True
+Expected Post: 0
+Actual Post  : 0
+
+12 Delete_Valid_Root_TreeWithRootAndLeft
+Test case    : Delete root node "B" from tree with root and left child, and ensure Number is decremented.
+Before       : { A, B }
+ B
+╭╯
+A 
+After        : { A }
+A
+Expected     : True
+Actual       : True
+Expected Post: 1
+Actual Post  : 1
+
+13 Delete_Valid_Root_TreeWithRootAndRight
+Test case    : Delete root node "A" from tree with root and right child, and ensure Number is decremented.
+Before       : { A, B }
+A 
+╰╮
+ B
+After        : { B }
+B
+Expected     : True
+Actual       : True
+Expected Post: 1
+Actual Post  : 1
+
+14 Delete_Valid_Root_TreeWithRootLeftAndRight
+Test case    : Delete root node "B" from tree with root and left/right children, and ensure Number is decremented.
+Before       : { A, B, C }
+ B 
+╭╰╮
+A C
+After        : { A, C }
+A 
+╰╮
+ C
+Expected     : True
+Actual       : True
+Expected Post: 2
+Actual Post  : 2
+
+15 Insert_Invalid_TreeWithMultipleNodes
+Test case    : Insert duplicate node "A" given tree with multiple nodes and ensure Number is invariant.
+Before       : { A, B, C, D, E, F, G, H }
+  C     
+ ╭╰─╮   
+ B  E   
+╭╯ ╭╰─╮ 
+A  D  G 
+     ╭╰╮
+     F H
+After        : { A, B, C, D, E, F, G, H }
+  C     
+ ╭╰─╮   
+ B  E   
+╭╯ ╭╰─╮ 
+A  D  G 
+     ╭╰╮
+     F H
+Expected     : False
+Actual       : False
+Expected Post: 8
+Actual Post  : 8
+
+16 Insert_Invalid_TreeWithRootNode
+Test case    : Insert duplicate node "A" given tree with root node and ensure Number is invariant.
+Before       : { A }
+A
+After        : { A }
+A
+Expected     : False
+Actual       : False
+Expected Post: 1
+Actual Post  : 1
+
+17 Insert_Valid_EmptyTree
+Test case    : Insert node "A" into empty tree and ensure Number is incremented.
+Before       : {  }
+Tree is empty
+After        : { A }
+A
+Expected     : True
+Actual       : True
+Expected Post: 1
+Actual Post  : 1
+
+18 Insert_Valid_TreeWithMultipleNodes
+Test case    : Insert node "A" given a tree with multiple nodes and ensure Number is incremented.
+Before       : { B, C, D, E, F, G, H }
+ C     
+╭╰─╮   
+B  E   
+  ╭╰─╮ 
+  D  G 
+    ╭╰╮
+    F H
+After        : { A, B, C, D, E, F, G, H }
+  C     
+ ╭╰─╮   
+ B  E   
+╭╯ ╭╰─╮ 
+A  D  G 
+     ╭╰╮
+     F H
+Expected     : True
+Actual       : True
+Expected Post: 8
+Actual Post  : 8
+
+19 Insert_Valid_TreeWithRootNode_InsertLeft
+Test case    : Insert node "A" left of root node and ensure Number is incremented.
+Before       : { B }
+B
+After        : { A, B }
+ B
+╭╯
+A 
+Expected     : True
+Actual       : True
+Expected Post: 2
+Actual Post  : 2
+
+20 Insert_Valid_TreeWithRootNode_InsertRight
+Test case    : Insert node "B" right of root node and ensure Number is incremented.
+Before       : { A }
+A
+After        : { A, B }
+A 
+╰╮
+ B
+Expected     : True
+Actual       : True
+Expected Post: 2
+Actual Post  : 2
+
+21 NoDVDs_AfterDeletingNode
+Test case    : NoDVDs returns 28 on tree after deleting a node, ensuring the tree and Number are invariant.
+Before       : { A, B, C, D, E, F, G, H }
+A       
+╰╮      
+ B      
+ ╰╮     
+  C     
+  ╰╮    
+   D    
+   ╰╮   
+    E   
+    ╰╮  
+     F  
+     ╰╮ 
+      G 
+      ╰╮
+       H
+After        : { A, B, C, D, E, F, G }
+A      
+╰╮     
+ B     
+ ╰╮    
+  C    
+  ╰╮   
+   D   
+   ╰╮  
+    E  
+    ╰╮ 
+     F 
+     ╰╮
+      G
+Expected     : 21
+Actual       : 21
+Expected Post: 7
+Actual Post  : 7
+
+22 NoDVDs_EmptyTree
+Test case    : NoDVDs returns 0 on empty tree, ensuring the tree and Number are invariant.
+Before       : {  }
+Tree is empty
+After        : {  }
+Tree is empty
+Expected     : 0
+Actual       : 0
+Expected Post: 0
+Actual Post  : 0
+
+23 NoDVDs_TreeWithMultipleNodes
+Test case    : NoDVDs returns 28 on tree with root node, ensuring the tree and Number are invariant.
+Before       : { A, B, C, D, E, F, G, H }
+A       
+╰╮      
+ B      
+ ╰╮     
+  C     
+  ╰╮    
+   D    
+   ╰╮   
+    E   
+    ╰╮  
+     F  
+     ╰╮ 
+      G 
+      ╰╮
+       H
+After        : { A, B, C, D, E, F, G, H }
+A       
+╰╮      
+ B      
+ ╰╮     
+  C     
+  ╰╮    
+   D    
+   ╰╮   
+    E   
+    ╰╮  
+     F  
+     ╰╮ 
+      G 
+      ╰╮
+       H
+Expected     : 28
+Actual       : 28
+Expected Post: 8
+Actual Post  : 8
+
+24 NoDVDs_TreeWithRoot
+Test case    : NoDVDs returns 5 on tree with root node, ensuring the tree and Number are invariant.
+Before       : { A }
+A
+After        : { A }
+A
+Expected     : 5
+Actual       : 5
+Expected Post: 1
+Actual Post  : 1
+
+25 Search_ContainsMovie_TreeWithMultipleNodes
+Test case    : Search a tree with multiple nodes for movie with title "A" that exists in tree and ensure Number is unchanged.
+Before       : { A, B, C }
+A  
+╰╮ 
+ B 
+ ╰╮
+  C
+After        : { A, B, C }
+A  
+╰╮ 
+ B 
+ ╰╮
+  C
+Expected     : A
+Actual       : A
+Expected Post: 3
+Actual Post  : 3
+
+26 Search_ContainsMovie_TreeWithMultipleNodes
+Test case    : Search a tree with multiple nodes for movie with title "A" that exists in tree and ensure Number is unchanged.
+Before       : { A, B, C }
+A  
+╰─╮
+  C
+ ╭╯
+ B 
+After        : { A, B, C }
+A  
+╰─╮
+  C
+ ╭╯
+ B 
+Expected     : A
+Actual       : A
+Expected Post: 3
+Actual Post  : 3
+
+27 Search_ContainsMovie_TreeWithMultipleNodes
+Test case    : Search a tree with multiple nodes for movie with title "A" that exists in tree and ensure Number is unchanged.
+Before       : { A, B, C }
+ B 
+╭╰╮
+A C
+After        : { A, B, C }
+ B 
+╭╰╮
+A C
+Expected     : A
+Actual       : A
+Expected Post: 3
+Actual Post  : 3
+
+28 Search_ContainsMovie_TreeWithMultipleNodes
+Test case    : Search a tree with multiple nodes for movie with title "A" that exists in tree and ensure Number is unchanged.
+Before       : { A, B, C }
+ B 
+╭╰╮
+A C
+After        : { A, B, C }
+ B 
+╭╰╮
+A C
+Expected     : A
+Actual       : A
+Expected Post: 3
+Actual Post  : 3
+
+29 Search_ContainsMovie_TreeWithMultipleNodes
+Test case    : Search a tree with multiple nodes for movie with title "A" that exists in tree and ensure Number is unchanged.
+Before       : { A, B, C }
+  C
+ ╭╯
+ B 
+╭╯ 
+A  
+After        : { A, B, C }
+  C
+ ╭╯
+ B 
+╭╯ 
+A  
+Expected     : A
+Actual       : A
+Expected Post: 3
+Actual Post  : 3
+
+30 Search_ContainsMovie_TreeWithMultipleNodes
+Test case    : Search a tree with multiple nodes for movie with title "A" that exists in tree and ensure Number is unchanged.
+Before       : { A, B, C }
+  C
+╭─╯
+A  
+╰╮ 
+ B 
+After        : { A, B, C }
+  C
+╭─╯
+A  
+╰╮ 
+ B 
+Expected     : A
+Actual       : A
+Expected Post: 3
+Actual Post  : 3
+
+31 Search_ContainsMovie_TreeWithRootNode
+Test case    : Search a tree with root node for movie with title "A" that exists in tree and ensure Number is unchanged.
+Before       : { A }
+A
+After        : { A }
+A
+Expected     : A
+Actual       : A
+Expected Post: 1
+Actual Post  : 1
+
+32 Search_DoesNotContainMovie_Empty
+Test case    : Search an empty tree for movie with title "X" that does not exist in tree and ensure Number is unchanged.
+Before       : {  }
+Tree is empty
+After        : {  }
+Tree is empty
+Expected     : null
+Actual       : null
+Expected Post: 0
+Actual Post  : 0
+
+33 Search_DoesNotContainMovie_TreeWithMultipleNodes
+Test case    : Search a tree with multiple nodes for movie with title "X" that does not exist in tree and ensure Number is unchanged.
+Before       : { A, B, C }
+A  
+╰╮ 
+ B 
+ ╰╮
+  C
+After        : { A, B, C }
+A  
+╰╮ 
+ B 
+ ╰╮
+  C
+Expected     : null
+Actual       : null
+Expected Post: 3
+Actual Post  : 3
+
+34 Search_DoesNotContainMovie_TreeWithMultipleNodes
+Test case    : Search a tree with multiple nodes for movie with title "X" that does not exist in tree and ensure Number is unchanged.
+Before       : { A, B, C }
+A  
+╰─╮
+  C
+ ╭╯
+ B 
+After        : { A, B, C }
+A  
+╰─╮
+  C
+ ╭╯
+ B 
+Expected     : null
+Actual       : null
+Expected Post: 3
+Actual Post  : 3
+
+35 Search_DoesNotContainMovie_TreeWithMultipleNodes
+Test case    : Search a tree with multiple nodes for movie with title "X" that does not exist in tree and ensure Number is unchanged.
+Before       : { A, B, C }
+ B 
+╭╰╮
+A C
+After        : { A, B, C }
+ B 
+╭╰╮
+A C
+Expected     : null
+Actual       : null
+Expected Post: 3
+Actual Post  : 3
+
+36 Search_DoesNotContainMovie_TreeWithMultipleNodes
+Test case    : Search a tree with multiple nodes for movie with title "X" that does not exist in tree and ensure Number is unchanged.
+Before       : { A, B, C }
+ B 
+╭╰╮
+A C
+After        : { A, B, C }
+ B 
+╭╰╮
+A C
+Expected     : null
+Actual       : null
+Expected Post: 3
+Actual Post  : 3
+
+37 Search_DoesNotContainMovie_TreeWithMultipleNodes
+Test case    : Search a tree with multiple nodes for movie with title "X" that does not exist in tree and ensure Number is unchanged.
+Before       : { A, B, C }
+  C
+ ╭╯
+ B 
+╭╯ 
+A  
+After        : { A, B, C }
+  C
+ ╭╯
+ B 
+╭╯ 
+A  
+Expected     : null
+Actual       : null
+Expected Post: 3
+Actual Post  : 3
+
+38 Search_DoesNotContainMovie_TreeWithMultipleNodes
+Test case    : Search a tree with multiple nodes for movie with title "X" that does not exist in tree and ensure Number is unchanged.
+Before       : { A, B, C }
+  C
+╭─╯
+A  
+╰╮ 
+ B 
+After        : { A, B, C }
+  C
+╭─╯
+A  
+╰╮ 
+ B 
+Expected     : null
+Actual       : null
+Expected Post: 3
+Actual Post  : 3
+
+39 Search_DoesNotContainMovie_TreeWithRootNode
+Test case    : Search a tree with root node for movie with title "X" that does not exist in tree and ensure Number is unchanged.
+Before       : { A }
+A
+After        : { A }
+A
+Expected     : null
+Actual       : null
+Expected Post: 1
+Actual Post  : 1
+
+40 ToArray_EmptyTree
+Test case    : ToArray returns a lexicographically sorted array of movies, given an empty tree, esnsuring the tree and Number are invariant.
+Input        : {  }
+Tree is empty
+Expected     : {  }
+Actual       : {  }
+Expected Post: 0
+Actual Post  : 0
+
+41 ToArray_IsSorted
+Test case    : ToArray returns a lexicographically sorted array of movies, given a tree containing nodes with lowercase, uppercase, and numeric characters, when inserted in a random order, esnsuring the tree and Number are invariant.
+Input        : { 0, 1, 2, A, B, C, a, b, c }
+      a  
+    ╭─╰╮ 
+    B  b 
+╭───╰╮ ╰╮
+0    C  c
+╰──╮     
+   A     
+  ╭╯     
+  2      
+ ╭╯      
+ 1       
+Expected     : { 0, 1, 2, A, B, C, a, b, c }
+Actual       : { 0, 1, 2, A, B, C, a, b, c }
+Expected Post: 9
+Actual Post  : 9
+
+42 ToArray_TreeWithRoot
+Test case    : ToArray returns a lexicographically sorted array of movies, given a tree with a root node, esnsuring the tree and Number are invariant.
+Input        : { A }
+A
+Expected     : { A }
+Actual       : { A }
+Expected Post: 1
+Actual Post  : 1
+
+43 CompareTo_EmptyAndAny
+Test case: Compare empty string with numeric character:  < 0
+Input    : new Movie(Title=).CompareTo(new Movie(Title=0))
+Expected : -1
+Actual   : -1
+
+44 CompareTo_EmptyAndAny
+Test case: Compare empty string with uppercase character:  < A
+Input    : new Movie(Title=).CompareTo(new Movie(Title=A))
+Expected : -1
+Actual   : -1
+
+45 CompareTo_EmptyAndAny
+Test case: Compare empty string with lowercase character:  < a
+Input    : new Movie(Title=).CompareTo(new Movie(Title=a))
+Expected : -1
+Actual   : -1
+
+46 CompareTo_Lowercase
+Test case: Compare uppercase characters: a < b
+Input    : Movie(Title=a).CompareTo(Movie(Title=b))
+Expected : -1
+Actual   : -1
+
+47 CompareTo_Lowercase
+Test case: Compare uppercase characters: a == b
+Input    : Movie(Title=a).CompareTo(Movie(Title=a))
+Expected : 0
+Actual   : 0
+
+48 CompareTo_Lowercase
+Test case: Compare uppercase characters: b > a
+Input    : Movie(Title=b).CompareTo(Movie(Title=a))
+Expected : 1
+Actual   : 1
+
+49 CompareTo_Mixed
+Test case: Compare number with uppercase character: 0 < A
+Input    : new Movie(Title=0).CompareTo(new Movie(Title=A))
+Expected : -1
+Actual   : -1
+
+50 CompareTo_Mixed
+Test case: Compare uppercase character with lowercase character: A < a
+Input    : new Movie(Title=A).CompareTo(new Movie(Title=a))
+Expected : -1
+Actual   : -1
+
+51 CompareTo_MultipleCharacters
+Test case: Compare two strings: "avatar 1" < "Avatar 1"
+Input    : new Movie(Title=avatar 1).CompareTo(new Movie(Title=Avatar 1))
+Expected : 1
+Actual   : 1
+
+52 CompareTo_MultipleCharacters
+Test case: Compare two string: "Avatar 1" < "Avatar 2"
+Input    : new Movie(Title=Avatar 1).CompareTo(new Movie(Title=Avatar 2))
+Expected : -1
+Actual   : -1
+
+53 CompareTo_Numeric
+Test case: Compare uppercase characters: 0 < 1
+Input    : Movie(Title=0).CompareTo(Movie(Title=1))
+Expected : -1
+Actual   : -1
+
+54 CompareTo_Numeric
+Test case: Compare uppercase characters: 0 == 1
+Input    : Movie(Title=0).CompareTo(Movie(Title=0))
+Expected : 0
+Actual   : 0
+
+55 CompareTo_Numeric
+Test case: Compare uppercase characters: 1 > 0
+Input    : Movie(Title=1).CompareTo(Movie(Title=0))
+Expected : 1
+Actual   : 1
+
+56 CompareTo_Uppercase
+Test case: Compare uppercase characters: A < B
+Input    : Movie(Title=A).CompareTo(Movie(Title=B))
+Expected : -1
+Actual   : -1
+
+57 CompareTo_Uppercase
+Test case: Compare uppercase characters: A == A
+Input    : Movie(Title=A).CompareTo(Movie(Title=A))
+Expected : 0
+Actual   : 0
+
+58 CompareTo_Uppercase
+Test case: Compare uppercase characters: B > A
+Input    : Movie(Title=B).CompareTo(Movie(Title=A))
+Expected : 1
+Actual   : 1
+
+59 ToString_FullConstructor
+Test case: Print Movie when all parameters are supplied.
+Input    : new Movie("Avatar: The Way of Water", MovieGenre.Action, MovieClassification.PG, 192, 20).ToString()
+Expected : Movie(Title=Avatar: The Way of Water, Genre=Action, Classification=PG, Duration=192, AvailableCopies=20)
+Actual   : Movie(Title=Avatar: The Way of Water, Genre=Action, Classification=PG, Duration=192, AvailableCopies=20)
+
+60 ToString_PartialConstructor
+Test case: Print Movie when only Title is supplied.
+Input    : new Movie("Avatar: The Way of Water").ToString()
+Expected : Movie(Title=Avatar: The Way of Water, Genre=0, Classification=0, Duration=0, AvailableCopies=0)
+Actual   : Movie(Title=Avatar: The Way of Water, Genre=0, Classification=0, Duration=0, AvailableCopies=0)
+
+61 ToString_PartialConstructor_EmptyTitle
+Test case: Print Movie when only Title is supplied and the Title is an empty string.
+Input    : new Movie("").ToString()
+Expected : Movie(Title=, Genre=0, Classification=0, Duration=0, AvailableCopies=0)
+Actual   : Movie(Title=, Genre=0, Classification=0, Duration=0, AvailableCopies=0)
+

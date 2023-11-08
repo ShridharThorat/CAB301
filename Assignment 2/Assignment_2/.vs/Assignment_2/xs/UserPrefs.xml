@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{B1D14557-CF48-46A5-8B32-72724A6F6BFA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment_2/EmpiricalAnalysis.cs">
+    <Files>
+      <File FileName="../n10817239-assignment2-Marks/n10817239-assignment2/MovieCollection.cs" />
+      <File FileName="Assignment_2/MovieCollection.cs" />
+      <File FileName="Assignment_2/Movie.cs" />
+      <File FileName="Assignment_2/EmpiricalAnalysis.cs" Line="119" Column="17" />
+      <File FileName="Assignment_2/Program.cs" Line="1" Column="1" />
+      <File FileName="Test_Suite/MovieCollectionTests.cs" Line="491" Column="72" />
+      <File FileName="Assignment_2/data.txt" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assignment_2" expanded="True">
+            <Node name="Assignment_2" expanded="True">
+              <Node name="EmpiricalAnalysis.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Shridhar/Library/CloudStorage/OneDrive-QueenslandUniversityofTechnology/Bachelor of Mathematics and Information Technology/Year 4/Semester 1/CAB301 Algorithms/Assignment 2/Assignment_2/Test_Suite/Main.cs" relfile="Test_Suite/Main.cs" line="13" column="1" />
+      <Breakpoint file="/Users/Shridhar/Library/CloudStorage/OneDrive-QueenslandUniversityofTechnology/Bachelor of Mathematics and Information Technology/Year 4/Semester 1/CAB301 Algorithms/Assignment 2/Assignment_2/Test_Suite/MovieCollectionTests.cs" relfile="Test_Suite/MovieCollectionTests.cs" line="159" column="1" />
+      <Breakpoint file="/Users/Shridhar/Library/CloudStorage/OneDrive-QueenslandUniversityofTechnology/Bachelor of Mathematics and Information Technology/Year 4/Semester 1/CAB301 Algorithms/Assignment 2/Assignment_2/Test_Suite/MovieTests.cs" relfile="Test_Suite/MovieTests.cs" line="202" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Test__Suite PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Assignment__2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
