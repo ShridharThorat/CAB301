@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "9+o/bZw6qIHBbfCd8sreA8MQGTzNPa1nQv4RO2XSRlqfoNd7hFWMalUsr800m2/jX5jtzWFEj2HxIF4W8VZq6g==",
+  "success": true,
+  "projectFilePath": "/Users/shridhar/Library/CloudStorage/OneDrive-QueenslandUniversityofTechnology/Bachelor of Mathematics and Information Technology/Year 4/CAB301 Algorithms/Assignment 1/Assignment_1/SchedulerTests/ADT_Tests.csproj",
+  "expectedPackageFiles": [
+    "/Users/shridhar/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
+    "/Users/shridhar/.nuget/packages/microsoft.codecoverage/17.5.0/microsoft.codecoverage.17.5.0.nupkg.sha512",
+    "/Users/shridhar/.nuget/packages/microsoft.net.test.sdk/17.5.0/microsoft.net.test.sdk.17.5.0.nupkg.sha512",
+    "/Users/shridhar/.nuget/packages/microsoft.testplatform.objectmodel/17.5.0/microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
+    "/Users/shridhar/.nuget/packages/microsoft.testplatform.testhost/17.5.0/microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
+    "/Users/shridhar/.nuget/packages/mstest.testadapter/3.0.2/mstest.testadapter.3.0.2.nupkg.sha512",
+    "/Users/shridhar/.nuget/packages/mstest.testframework/3.0.2/mstest.testframework.3.0.2.nupkg.sha512",
+    "/Users/shridhar/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/shridhar/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
+    "/Users/shridhar/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

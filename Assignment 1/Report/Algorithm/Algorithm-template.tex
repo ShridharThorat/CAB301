@@ -1,0 +1,116 @@
+\documentclass[a4paper]{article}
+
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{titling}
+\usepackage{caption}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+
+\geometry{
+   left=30mm,   
+   right=30mm,
+   top=20mm,
+   bottom=20mm,
+}
+\setlength{\droptitle}{-27mm}
+
+
+\author{Shridhar Thorat}
+\title{Assignment Algorithms}
+
+
+\begin{document}
+\maketitle
+\listofalgorithms{}
+
+
+\section*{First-Come First-Served Algorithm}
+\begin{algorithm}
+    \caption*{\textbf{ALGORITHM~~}  FirstComeFirstServed{()}}
+    \textbf{Output:} An array $IJob[~]$ which contains all the jobs in a scheduler and they are sorted in non-descending order of the $timeReceived$ of the job
+
+    \begin{algorithmic}[1]
+        \State{$jobs \gets$ convert $Jobs$ to array} 
+
+        \State{$collection \gets$ new JobCollection with same capacity as $jobs$}
+        \State{\texttt{// Consider that $n$ represents the number of jobs in a $collection$}}
+
+        \ForAll{$job$ in $jobs$}
+            \State{add $job$ to $collection$}
+        \EndFor{} 
+        \For{$i \gets 0$ to $n-2$}
+            \State{$\min \gets i$}
+            \For{$j \gets i+1$ to $n-1$}
+                \If{$pJobs[j].timeReceived < pJobs[\min].timeReceived$}
+                    \State{$\min \gets j$}
+                \EndIf{}
+            \EndFor{}
+            \State{Swap $jobs[i]$ and $jobs[\min]$}
+        \EndFor{}
+        \State{\Return{$pJobs$}}
+
+    \end{algorithmic}
+\end{algorithm}
+
+\section*{Shortest Job first Algorithm}
+\begin{algorithm}
+    \caption*{\textbf{ALGORITHM~~}  ShortestJobFirst{()}}
+    \textbf{Output:} An array $IJob[~]$ which contains all the jobs in a scheduler and they are sorted in non-descending order of the $executionTime$ of the job
+
+    \begin{algorithmic}[1]
+        \State{$jobs \gets$ convert $Jobs$ to array} 
+
+        \State{$collection \gets$ new JobCollection with same capacity as $jobs$}
+        \State{\texttt{// Consider that $n$ represents the number of jobs in a $collection$}}
+
+        \ForAll{$job$ in $jobs$}
+            \State{add $job$ to $collection$}
+        \EndFor{} 
+        \For{$i \gets 0$ to $n - 2$}
+            \State{$\min \gets i$}
+            \For{$j \gets i+1$ to $n-1$}
+                \If{$pJobs[j].executionTime < pJobs[\min].executionTime$}
+                    \State{$\min \gets j$}
+                \EndIf{}
+            \EndFor{}
+            \State{Swap $jobs[i]$ and $jobs[\min]$}
+        \EndFor{}
+        \State{\Return{$pJobs$}}
+    \end{algorithmic}
+\end{algorithm}
+\pagebreak
+
+\section*{Priority Algorithm}
+\begin{algorithm}
+    \caption*{\textbf{ALGORITHM~~}  ShortestJobFirst{()}}
+    \textbf{Output:} An array $IJob[~]$ which contains all the jobs in a scheduler and they are sorted in non-ascending order of the $priority$ of the job
+    \begin{algorithmic}[1]
+        
+        \State{$jobs \gets$ convert $Jobs$ to array} 
+        
+        \State{$collection \gets$ new JobCollection with same capacity as $jobs$}
+        \State{\texttt{// Consider that $n$ represents the number of jobs in a $collection$}}
+        
+        \ForAll{$job$ in $jobs$}
+            \State{add $job$ to $collection$}
+        \EndFor{} 
+        \For{$i \gets 0$ to $n - 2$}
+            \State{$\min \gets i$}
+            \For{$j \gets i+1$ to $n-1$}
+                \If{$pJobs[j].priority < pJobs[\min].priority$}
+                    \State{$\min \gets j$}
+                \EndIf{}
+            \EndFor{}
+            \State{Swap $jobs[i]$ and $jobs[\min]$}
+        \EndFor{}
+        \State{\Return{$pJobs$}}
+
+    \end{algorithmic}
+\end{algorithm}
+
+
+\end{document}
