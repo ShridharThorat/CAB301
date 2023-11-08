@@ -1,0 +1,54 @@
+﻿// Tasklist is simply a List<Task>
+// OutGoingEdges is Dictionary<(Task, Task), uint>
+// where the second task depends on the first and uint is the first task's time required
+
+private Dictionary<Task, int> EarliestStartTimes = new Dictionary<Task, int>();
+private HashSet<Task> Visited = new HashSet<Task>();
+public Dictionary<Task, int> FordFulkersonEarliestTimes()
+{
+	EarliestStartTimes = new Dictionary<Task, int>();
+	Visited = new HashSet<Task>();
+
+	// Initialize earliest start times with -1 for all tasks
+	foreach (var task in TaskList)
+	{
+		EarliestStartTimes[task] = -1;
+	}
+
+	// Perform Ford-Fulkerson algorithm
+	foreach (var task in TaskList)
+	{
+		if (EarliestStartTimes[task] == -1)
+		{
+			FindAugmentingPath(task);
+		}
+	}
+	return EarliestStartTimes;
+}
+
+private void FindAugmentingPath(Task currentTask)
+{
+	if (Visited.Contains(currentTask))
+	{
+		throw new Exception("Cycle detected. The graph should be acyclic.");
+	}
+
+	Visited.Add(currentTask);
+
+	foreach (var dependency in currentTask.DependencyList)
+	{
+		if (EarliestStartTimes[dependency] == -1)
+		{
+			FindAugmentingPath(dependency);
+		}
+		int dependencyTime = EarliestStartTimes[dependency] + (int) OutGoingEdges[(dependency, currentTask)];
+		EarliestStartTimes[currentTask] = Math.Max(EarliestStartTimes[currentTask], dependencyTime);
+	}
+
+	Visited.Remove(currentTask);
+
+	if (EarliestStartTimes[currentTask] == -1)
+	{
+		EarliestStartTimes[currentTask] = 0;
+	}
+}

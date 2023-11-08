@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{DEAAAD48-1E19-4324-8D4C-DD5CF4407D1D}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Input.txt">
+    <Files>
+      <File FileName="Input.txt" Line="2" Column="11" IsPinned="True" />
+      <File FileName="EarliestTimes.txt" />
+      <File FileName="ConsoleApplication.cs" Line="494" Column="29" />
+      <File FileName="FileManagerInterface.cs" />
+      <File FileName="TaskCollection.cs" />
+      <File FileName="Task.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assignment 3" expanded="True">
+            <Node name="Assignment 3" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="Assignment 3" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>app.Collection.AdjacencyMatrix()</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assignment_2203 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

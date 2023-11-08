@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{CE28E710-22D1-4252-92AB-0D59F8064F4B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Assignment_2203 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="n10817239/ConsoleApplication.cs">
+    <Files>
+      <File FileName="n10817239/ConsoleApplication.cs" Line="15" Column="257" />
+      <File FileName="n10817239/FileManagerInterface.cs" />
+      <File FileName="n10817239/TaskCollection.cs" />
+      <File FileName="n10817239/Task.cs" />
+      <File FileName="n10817239/GUI_Interface.cs" />
+      <File FileName="n10817239/Input.txt" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="n10817239" expanded="True">
+            <Node name="Assignment 3" expanded="True">
+              <Node name="ConsoleApplication.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

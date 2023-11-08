@@ -1,0 +1,70 @@
+﻿// 1
+T1, 100
+T2, 30, T1
+T3, 50, T2, T5
+T4, 90, T1, T7
+T5, 70, T2, T4
+T6, 55, T5
+T7, 50
+
+// Expected Sequence.txt (can be different if there are multiple sortings)
+T7, T1, T2, T4, T5, T3, T6
+
+// Expected EarliestTimes.txt
+T1, 0
+T2, 100
+T3, 260
+T4, 100
+T5, 190
+T6, 260
+T7, 0
+
+// 2
+A, 50
+B, 20, A
+C, 30, A
+D, 40, B, C
+E, 60, D
+F, 70, D
+
+// Expected Sequence.txt (can be different if there are multiple sortings)
+A, B, C, D, E, F
+
+// Expected EarliestTimes.txt
+A, 0
+B, 50
+C, 50
+D, 80
+E, 120
+F, 120
+
+// 3
+Start, 0
+Task1, 20, Start
+Task2, 30, Start
+Task3, 40, Task1
+Task4, 50, Task2
+Task5, 60, Task3, Task4
+Task6, 10, Task5
+End, 0, Task6
+
+// Expected Sequence.txt (can be different if there are multiple sortings)
+Start, Task1, Task2, Task3, Task4, Task5, Task6, End
+
+// Expected EarliestTimes.txt
+Start, 0
+Task1, 0
+Task2, 0
+Task3, 20
+Task4, 30
+Task5, 80
+Task6, 140
+End, 150
+
+
+// Cyclic
+A, 50, C
+B, 20, A
+C, 30, B
+
+error handling for both
