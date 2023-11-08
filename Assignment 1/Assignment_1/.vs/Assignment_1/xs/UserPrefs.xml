@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{1E6F7D90-DAF6-4578-B3D1-7211F922ACB1}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/shridhar/Library/CloudStorage/OneDrive-QueenslandUniversityofTechnology/Bachelor of Mathematics and Information Technology/Year 4/CAB301 Algorithms/Assignment 1/Assignment_1/SchedulerTests/JobCollectionTest.cs" relfile="SchedulerTests/JobCollectionTest.cs" line="20" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ADT__Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment_1/JobCollection.cs">
+    <Files>
+      <File FileName="Assignment_1/Program.cs" />
+      <File FileName="Assignment_1/Scheduler.cs" />
+      <File FileName="Assignment_1/Job.cs" Line="69" Column="63" />
+      <File FileName="Assignment_1/JobCollection.cs" Line="60" Column="56" />
+      <File FileName="SchedulerTests/FirstComeFirstServedTests.cs" />
+      <File FileName="SchedulerTests/JobTest.cs" />
+      <File FileName="SchedulerTests/JobCollectionTest.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assignment_1" expanded="True">
+            <Node name="ADT_Tests" expanded="True" />
+            <Node name="Assignment_1" expanded="True">
+              <Node name="JobCollection.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assignment__1 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
